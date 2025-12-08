@@ -53,10 +53,12 @@ body:
         Please let us know here.
       value: |
         Before a pull request is accepted, there has to be a consensus on the appeal of the proposed enhancement.
+
         To help move this proposal forward, you can:
         - Explain a real-life use case or scenario about how this proposed enhancement would benefit your project
         - Discuss with other members of the Wagtail community on a preferred approach or alternatives
         - Share which parts of Wagtail's codebase need updating, as well as any backwards-compatibility concerns
+
         Once a general consensus has been reached, anyone can contribute to this. View our [contributing guidelines](https://docs.wagtail.org/en/latest/contributing/index.html) and add a comment to the issue once you're ready to start.
     validations:
       required: false
