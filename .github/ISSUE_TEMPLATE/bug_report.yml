@@ -42,7 +42,7 @@ body:
       label: Can be reproduced
       description: Have you confirmed this issue on a fresh Wagtail project or the bakerydemo?
       options:
-        - Not yet
+        - Not confirmed
         - Yes, on a fresh Wagtail project
         - Yes, on the bakerydemo
     validations:
