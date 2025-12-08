@@ -1,5 +1,5 @@
 name: 🐞 Bug Report
-description: Create a report to help us improve
+description: Found a bug? Let us know so we can fix it 👍
 labels: ["type:Bug", "status:Unconfirmed"]
 body:
   - type: markdown
