@@ -53,7 +53,7 @@ body:
     attributes:
       label: Python version
       description: Run `python --version`
-      placeholder: "Example: Python 3.11.5"
+      placeholder: "Example: 3.11.5"
     validations:
       required: true
 
