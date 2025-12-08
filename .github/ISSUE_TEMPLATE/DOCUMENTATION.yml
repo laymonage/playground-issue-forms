@@ -23,13 +23,11 @@ body:
     attributes:
       label: Pertinent section(s) of the Wagtail docs
       description: |
-        Insert the permalink of the section heading in the Wagtail docs. Choose the most specific section / lowest-level heading to which your suggested change would apply.
-
-        (In the docs, hover over the heading to see the permalink icon.)
+        Insert the permalink of the section heading in the Wagtail docs. Choose the most specific section / lowest-level heading to which your suggested change would apply. (In the docs, hover over the heading to see the permalink icon.)
       placeholder: |
-        Example:
+        These sections about writing page templates are relevant:
 
-        - [Working with pages](https://docs.wagtail.org/en/stable/topics/pages.html#working-with-pages)
+        - [Page content](https://docs.wagtail.org/en/stable/topics/writing_templates.html#page-content)
         - [Template tags & filters](https://docs.wagtail.org/en/stable/topics/writing_templates.html#template-tags-filters)
     validations:
       required: true
