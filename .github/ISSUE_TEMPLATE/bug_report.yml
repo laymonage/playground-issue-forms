@@ -22,7 +22,9 @@ body:
       label: Steps to Reproduce
       description: Please provide detailed steps to reproduce the issue.
       value: |
-        Test...
+        1. Start a new project with `wagtail start myproject`
+        2. Edit models.py as follows...
+        3. ...
     validations:
       required: true
 
