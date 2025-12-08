@@ -36,13 +36,15 @@ body:
     validations:
       required: false
 
-  - type: checkboxes
-    id: fresh-project
+  - type: dropdown
+    id: reproducibility
     attributes:
-      label: Can be reproduced on a fresh Wagtail project
-      description: Have you confirmed this issue on a fresh Wagtail project?
+      label: Can be reproduced
+      description: Have you confirmed this issue on a fresh Wagtail project or the bakerydemo?
       options:
-        - label: I have confirmed that this issue can be reproduced as described on a fresh Wagtail project
+        - Not yet
+        - Yes, on a fresh Wagtail project
+        - Yes, on the bakerydemo
 
   - type: input
     id: python-version
