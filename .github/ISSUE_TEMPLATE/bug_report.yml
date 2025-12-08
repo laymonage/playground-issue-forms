@@ -45,6 +45,8 @@ body:
         - Not yet
         - Yes, on a fresh Wagtail project
         - Yes, on the bakerydemo
+    validations:
+      required: true
 
   - type: input
     id: python-version
