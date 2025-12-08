@@ -1,0 +1,62 @@
+name: 🚀 Feature request
+description: Suggest an idea for improving Wagtail
+labels: ["type:Enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest an improvement to Wagtail!
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your proposal related to a problem?
+      description: Provide a clear and concise description of what the problem is.
+      placeholder: I'm always frustrated when...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the solution you'd like
+      description: Provide a clear and concise description of what you want to happen.
+      placeholder: Describe your proposed solution here.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Describe alternatives you've considered
+      description: Let us know about other solutions you've tried or researched.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: |
+        Is there anything else you can add about the proposal?
+        You might want to link to related issues here, if you haven't already.
+    validations:
+      required: false
+
+  - type: textarea
+    id: working-on-this
+    attributes:
+      label: Working on this
+      description: |
+        Do you have thoughts on skills needed?
+        Are you keen to work on this yourself once a consensus has been reached?
+        Please let us know here.
+      value: |
+        Before a pull request is accepted, there has to be a consensus on the appeal of the proposed enhancement.
+        To help move this proposal forward, you can:
+        - Explain a real-life use case or scenario about how this proposed enhancement would benefit your project
+        - Discuss with other members of the Wagtail community on a preferred approach or alternatives
+        - Share which parts of Wagtail's codebase need updating, as well as any backwards-compatibility concerns
+        Once a general consensus has been reached, anyone can contribute to this. View our [contributing guidelines](https://docs.wagtail.org/en/latest/contributing/index.html) and add a comment to the issue once you're ready to start.
+    validations:
+      required: false
