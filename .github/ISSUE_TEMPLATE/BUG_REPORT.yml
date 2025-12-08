@@ -1,6 +1,6 @@
 name: 🐞 Bug Report
 description: Found a bug? Let us know so we can fix it 👍
-labels: ["type:Bug", "status:Unconfirmed"]
+labels: ['type:Bug', 'status:Unconfirmed']
 body:
   - type: markdown
     attributes:
@@ -10,7 +10,7 @@ body:
   - type: textarea
     id: summary
     attributes:
-      label: Issue Summary
+      label: Issue summary
       description: A summary of the issue.
       placeholder: Tell us what you see!
     validations:
@@ -19,7 +19,7 @@ body:
   - type: textarea
     id: steps
     attributes:
-      label: Steps to Reproduce
+      label: Steps to reproduce
       description: Please provide detailed steps to reproduce the issue.
       value: |
         1. Start a new project with `wagtail start myproject`
@@ -31,7 +31,7 @@ body:
   - type: textarea
     id: additional-info
     attributes:
-      label: Additional Information
+      label: Additional information
       description: Any other relevant information. For example, why do you consider this a bug and what did you expect to happen instead?
     validations:
       required: false
@@ -48,39 +48,16 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: python-version
+  - type: textarea
+    id: technical-details
     attributes:
-      label: Python version
-      description: Run `python --version`
-      placeholder: "Example: 3.14.2"
-    validations:
-      required: true
-
-  - type: input
-    id: django-version
-    attributes:
-      label: Django version
-      description: Look in your requirements.txt, or run `pip show django | grep Version`
-      placeholder: "Example: 5.2.9"
-    validations:
-      required: true
-
-  - type: input
-    id: wagtail-version
-    attributes:
-      label: Wagtail version
-      description: Look at the bottom of the Settings menu in the Wagtail admin, or run `pip show wagtail | grep Version:`
-      placeholder: "Example: 7.2.1"
-    validations:
-      required: true
-
-  - type: input
-    id: browser-version
-    attributes:
-      label: Browser version
-      description: You can use https://www.whatsmybrowser.org/ to find this out
-      placeholder: "Example: Chrome 143 on macOS Tahoe 26.1"
+      label: Technical details
+      description: Please provide version information to help us diagnose the issue.
+      value: |
+        - Python version: Run `python --version`.
+        - Django version: Look in your requirements.txt, or run `pip show django | grep Version`.
+        - Wagtail version: Look at the bottom of the Settings menu in the Wagtail admin, or run `pip show wagtail | grep Version:`.
+        - Browser version: You can use https://www.whatsmybrowser.org/ to find this out.
     validations:
       required: false
 

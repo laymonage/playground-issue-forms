@@ -1,6 +1,6 @@
 name: 🚀 Feature request
 description: Suggest an idea for improving Wagtail
-labels: ["type:Enhancement"]
+labels: ['type:Enhancement']
 body:
   - type: markdown
     attributes:
@@ -10,8 +10,8 @@ body:
   - type: textarea
     id: problem
     attributes:
-      label: Is your proposal related to a problem?
-      description: Provide a clear and concise description of what the problem is.
+      label: Problem statement
+      description: Is your proposal related to a problem? Provide a clear and concise description of what the problem is.
       placeholder: I'm always frustrated when...
     validations:
       required: true
@@ -19,7 +19,7 @@ body:
   - type: textarea
     id: solution
     attributes:
-      label: Describe the solution you'd like
+      label: Proposed solution
       description: Provide a clear and concise description of what you want to happen.
       placeholder: Describe your proposed solution here.
     validations:
@@ -28,8 +28,8 @@ body:
   - type: textarea
     id: alternatives
     attributes:
-      label: Describe alternatives you've considered
-      description: Let us know about other solutions you've tried or researched.
+      label: Alternative solutions
+      description: Let us know about other solutions you've considered, tried, or researched.
     validations:
       required: false
 
@@ -49,16 +49,11 @@ body:
       label: Working on this
       description: |
         Do you have thoughts on skills needed?
-        Are you keen to work on this yourself once a consensus has been reached?
+        Are you keen to work on this yourself once others agree with the proposal?
         Please let us know here.
       value: |
-        Before a pull request is accepted, there must be a consensus on the appeal of the proposed enhancement.
+        Contribute to the discussion to help this move forward. Explain your use cases, discuss possible solutions, research how to adapt existing code, or compatibility concerns.
 
-        To help move this proposal forward, you can:
-        - Explain a real-life use case or scenario about how this proposed enhancement would benefit your project
-        - Discuss with other members of the Wagtail community on a preferred approach or alternatives
-        - Share which parts of Wagtail's codebase need updating, as well as any backwards-compatibility concerns
-
-        Once a general consensus has been reached, anyone can contribute to this. View our [contributing guidelines](https://docs.wagtail.org/en/latest/contributing/index.html), add a comment to the issue once you're ready to start.
+        Once others agree with the proposed changes, anyone can contribute to this. View our [contributing guidelines](https://docs.wagtail.org/en/latest/contributing/index.html). Add a comment to the issue to explain what approach you are taking.
     validations:
       required: false

@@ -1,32 +1,36 @@
 name: 📚 Documentation
 description: Suggest edits for the Wagtail documentation
-labels: ["Documentation"]
+labels: ['Documentation']
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for helping improve the Wagtail documentation!
-        
-        Summarise the documentation change you're suggesting in the Issue title above. 
+
+        Summarise the documentation change you're suggesting in the Issue title above.
         If you're suggesting a very specific change to the documentation, feel free to directly submit a pull request.
-
-  - type: input
-    id: docs-section
-    attributes:
-      label: Pertinent section of the Wagtail docs
-      description: |
-        Insert the permalink of the section heading in the Wagtail docs. Choose the most specific section / lowest-level heading to which your suggested change would apply.
-
-        In the docs, hover over the heading to see the permalink icon. Example: https://docs.wagtail.org/en/stable/getting_started/tutorial.html#a-basic-blog
-      placeholder: https://docs.wagtail.org/en/stable/...
-    validations:
-      required: true
 
   - type: textarea
     id: details
     attributes:
       label: Details
       description: Provide a clear and concise description of what you want to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: docs-section
+    attributes:
+      label: Pertinent section(s) of the Wagtail docs
+      description: |
+        Insert the permalink of the section heading in the Wagtail docs. Choose the most specific section / lowest-level heading to which your suggested change would apply.
+
+        (In the docs, hover over the heading to see the permalink icon.)
+      placeholder: |
+        Example:
+
+        - [Working with pages](https://docs.wagtail.org/en/stable/topics/pages.html#working-with-pages)
+        - [Template tags & filters](https://docs.wagtail.org/en/stable/topics/writing_templates.html#template-tags-filters)
     validations:
       required: true
 
