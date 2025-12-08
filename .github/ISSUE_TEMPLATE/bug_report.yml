@@ -71,7 +71,7 @@ body:
     attributes:
       label: Wagtail version
       description: Look at the bottom of the Settings menu in the Wagtail admin, or run `pip show wagtail | grep Version:`
-      placeholder: "Example: 5.2"
+      placeholder: "Example: 7.1.2"
     validations:
       required: true
 
