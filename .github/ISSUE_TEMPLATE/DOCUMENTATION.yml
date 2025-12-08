@@ -14,7 +14,9 @@ body:
     attributes:
       label: Pertinent section of the Wagtail docs
       description: |
-        Insert the permalink of the section heading in the Wagtail docs. Choose the most specific section / lowest-level heading to which your suggested change would apply. (In the docs, hover over the heading to see the permalink icon.)
+        Insert the permalink of the section heading in the Wagtail docs. Choose the most specific section / lowest-level heading to which your suggested change would apply.
+        
+        In the docs, hover over the heading to see the permalink icon. Example: https://docs.wagtail.org/en/stable/getting_started/tutorial.html#a-basic-blog
       placeholder: https://docs.wagtail.org/en/stable/...
     validations:
       required: true
