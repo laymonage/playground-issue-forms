@@ -52,7 +52,7 @@ body:
         Are you keen to work on this yourself once a consensus has been reached?
         Please let us know here.
       value: |
-        Before a pull request is accepted, there has to be a consensus on the appeal of the proposed enhancement.
+        Before a pull request is accepted, there must be a consensus on the appeal of the proposed enhancement.
 
         To help move this proposal forward, you can:
         - Explain a real-life use case or scenario about how this proposed enhancement would benefit your project
