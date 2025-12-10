@@ -1,4 +1,4 @@
-name: 🐞 Bug Report
+name: 🐞 Bug report
 description: Found a bug? Let us know so we can fix it 👍
 labels: ['type:Bug', 'status:Unconfirmed']
 body:
